@@ -44,14 +44,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Cadastro de alimentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Cadastro de alimentos.Designer.cs">
+      <DependentUpon>Cadastro de alimentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de caminhões.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de caminhões.Designer.cs">
+      <DependentUpon>Cadastro de caminhões.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de carros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de carros.Designer.cs">
+      <DependentUpon>Cadastro de carros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de computadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de computadores.Designer.cs">
+      <DependentUpon>Cadastro de computadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de eletrodomésticos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de eletrodomésticos.Designer.cs">
+      <DependentUpon>Cadastro de eletrodomésticos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de madeiras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de madeiras.Designer.cs">
+      <DependentUpon>Cadastro de madeiras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de móveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de móveis.Designer.cs">
+      <DependentUpon>Cadastro de móveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro de roupas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro de roupas.Designer.cs">
+      <DependentUpon>Cadastro de roupas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cadastro de carros.resx">
+      <DependentUpon>Cadastro de carros.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
