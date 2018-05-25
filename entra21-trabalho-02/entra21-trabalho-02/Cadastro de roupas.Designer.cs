@@ -1,6 +1,6 @@
 ﻿namespace entra21_trabalho_02
 {
-    partial class Form1
+    partial class Cadastro_de_roupas
     {
         /// <summary>
         /// Required designer variable.
@@ -30,10 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.Text = "Cadastro_de_roupas";
         }
 
         #endregion
     }
 }
-
