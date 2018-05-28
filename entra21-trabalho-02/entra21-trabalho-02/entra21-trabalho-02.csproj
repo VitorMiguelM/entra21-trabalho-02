@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <Compile Include="CadastroDeMadeira.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,8 +64,8 @@
     <Compile Include="Lista de caminhoes.Designer.cs">
       <DependentUpon>Lista de caminhoes.cs</DependentUpon>
     </Compile>
-=======
->>>>>>> 9900cb2a617d8948ebec926de7f45e7d55ed91e5
+
+
     <Compile Include="Cadastro de carros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,7 +78,7 @@
     <Compile Include="Cadastro de computadores.Designer.cs">
       <DependentUpon>Cadastro de computadores.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
+
     <Compile Include="Lista de eletrodomesticos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,8 +91,6 @@
     <Compile Include="Lista de madeira.Designer.cs">
       <DependentUpon>Lista de madeira.cs</DependentUpon>
     </Compile>
-=======
->>>>>>> 9900cb2a617d8948ebec926de7f45e7d55ed91e5
     <Compile Include="Cadastro de móveis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,16 +103,16 @@
     <Compile Include="Cadastro de roupas.Designer.cs">
       <DependentUpon>Cadastro de roupas.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
+
     <Compile Include="Madeira.cs" />
-=======
+
     <Compile Include="CadastroDeMadeira.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CadastroDeMadeira.Designer.cs" />
     <Compile Include="Carros.cs" />
     <Compile Include="Moveis.cs" />
->>>>>>> 9900cb2a617d8948ebec926de7f45e7d55ed91e5
+
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,7 +121,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
+
     <EmbeddedResource Include="CadastroDeMadeira.resx">
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,7 +136,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lista de madeira.resx">
       <DependentUpon>Lista de madeira.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro de carros.resx">
       <DependentUpon>Cadastro de carros.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,7 +145,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cadastro de móveis.resx">
       <DependentUpon>Cadastro de móveis.cs</DependentUpon>
->>>>>>> 9900cb2a617d8948ebec926de7f45e7d55ed91e5
+
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
