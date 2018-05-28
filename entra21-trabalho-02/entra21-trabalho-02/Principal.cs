@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace entra21_trabalho_02
 {
-    public partial class btnListar : Form
+    public partial class Cadastros : Form
     {
-        public btnListar()
+        public Cadastros()
         {
             InitializeComponent();
         }

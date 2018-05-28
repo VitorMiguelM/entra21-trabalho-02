@@ -51,10 +51,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.nupTempoExistencia = new System.Windows.Forms.NumericUpDown();
-            this.nupPrecoUnidade = new System.Windows.Forms.NumericUpDown();
             this.txtDestino = new System.Windows.Forms.TextBox();
             this.nupQuantidadeCaminhoesDisponiveis = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
+            this.txtPrecoPorUnidade = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.tbHigrospicidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbFlexibilidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbDurabilidade)).BeginInit();
@@ -63,7 +63,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbResistenciaFlexao)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbQualidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupTempoExistencia)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nupPrecoUnidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantidadeCaminhoesDisponiveis)).BeginInit();
             this.SuspendLayout();
             // 
@@ -267,19 +266,13 @@
             this.nupTempoExistencia.Size = new System.Drawing.Size(155, 20);
             this.nupTempoExistencia.TabIndex = 23;
             // 
-            // nupPrecoUnidade
-            // 
-            this.nupPrecoUnidade.Location = new System.Drawing.Point(483, 190);
-            this.nupPrecoUnidade.Name = "nupPrecoUnidade";
-            this.nupPrecoUnidade.Size = new System.Drawing.Size(155, 20);
-            this.nupPrecoUnidade.TabIndex = 24;
-            // 
             // txtDestino
             // 
             this.txtDestino.Location = new System.Drawing.Point(483, 232);
             this.txtDestino.Name = "txtDestino";
             this.txtDestino.Size = new System.Drawing.Size(155, 20);
             this.txtDestino.TabIndex = 25;
+            this.txtDestino.TextChanged += new System.EventHandler(this.txtDestino_TextChanged);
             // 
             // nupQuantidadeCaminhoesDisponiveis
             // 
@@ -297,6 +290,14 @@
             this.button1.TabIndex = 27;
             this.button1.Text = "Salvar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtPrecoPorUnidade
+            // 
+            this.txtPrecoPorUnidade.Location = new System.Drawing.Point(483, 187);
+            this.txtPrecoPorUnidade.Name = "txtPrecoPorUnidade";
+            this.txtPrecoPorUnidade.Size = new System.Drawing.Size(155, 20);
+            this.txtPrecoPorUnidade.TabIndex = 28;
             // 
             // CadastroDeMadeira
             // 
@@ -304,10 +305,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orchid;
             this.ClientSize = new System.Drawing.Size(643, 312);
+            this.Controls.Add(this.txtPrecoPorUnidade);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.nupQuantidadeCaminhoesDisponiveis);
             this.Controls.Add(this.txtDestino);
-            this.Controls.Add(this.nupPrecoUnidade);
             this.Controls.Add(this.nupTempoExistencia);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -333,6 +334,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CadastroDeMadeira";
             this.Text = "Cadastro de madeira";
+            this.Load += new System.EventHandler(this.CadastroDeMadeira_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tbHigrospicidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbFlexibilidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbDurabilidade)).EndInit();
@@ -341,7 +343,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbResistenciaFlexao)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbQualidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupTempoExistencia)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nupPrecoUnidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupQuantidadeCaminhoesDisponiveis)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -373,9 +374,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.NumericUpDown nupTempoExistencia;
-        private System.Windows.Forms.NumericUpDown nupPrecoUnidade;
         private System.Windows.Forms.TextBox txtDestino;
         private System.Windows.Forms.NumericUpDown nupQuantidadeCaminhoesDisponiveis;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtPrecoPorUnidade;
     }
 }

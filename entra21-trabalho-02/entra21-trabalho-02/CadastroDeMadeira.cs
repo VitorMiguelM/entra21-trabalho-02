@@ -15,6 +15,20 @@ namespace entra21_trabalho_02
         public CadastroDeMadeira()
         {
             InitializeComponent();
+  
         }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CadastroDeMadeira_Load(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 }

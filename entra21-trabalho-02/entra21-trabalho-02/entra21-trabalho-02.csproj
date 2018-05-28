@@ -44,17 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cadastro de alimentos.cs">
+    <Compile Include="CadastroDeMadeira.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastro de alimentos.Designer.cs">
-      <DependentUpon>Cadastro de alimentos.cs</DependentUpon>
+    <Compile Include="CadastroDeMadeira.Designer.cs">
+      <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro de caminhões.cs">
+    <Compile Include="Carros.cs" />
+    <Compile Include="Lista de alimentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastro de caminhões.Designer.cs">
-      <DependentUpon>Cadastro de caminhões.cs</DependentUpon>
+    <Compile Include="Lista de alimentos.Designer.cs">
+      <DependentUpon>Lista de alimentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lista de caminhoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista de caminhoes.Designer.cs">
+      <DependentUpon>Lista de caminhoes.cs</DependentUpon>
     </Compile>
     <Compile Include="Cadastro de carros.cs">
       <SubType>Form</SubType>
@@ -68,17 +75,17 @@
     <Compile Include="Cadastro de computadores.Designer.cs">
       <DependentUpon>Cadastro de computadores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro de eletrodomésticos.cs">
+    <Compile Include="Lista de eletrodomesticos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastro de eletrodomésticos.Designer.cs">
-      <DependentUpon>Cadastro de eletrodomésticos.cs</DependentUpon>
+    <Compile Include="Lista de eletrodomesticos.Designer.cs">
+      <DependentUpon>Lista de eletrodomesticos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastro de madeiras.cs">
+    <Compile Include="Lista de madeira.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastro de madeiras.Designer.cs">
-      <DependentUpon>Cadastro de madeiras.cs</DependentUpon>
+    <Compile Include="Lista de madeira.Designer.cs">
+      <DependentUpon>Lista de madeira.cs</DependentUpon>
     </Compile>
     <Compile Include="Cadastro de móveis.cs">
       <SubType>Form</SubType>
@@ -92,10 +99,7 @@
     <Compile Include="Cadastro de roupas.Designer.cs">
       <DependentUpon>Cadastro de roupas.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
-    <Compile Include="Carros.cs" />
->>>>>>> 6c521de1571b33bf54ac684ea126408b144df085
+    <Compile Include="Madeira.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,16 +108,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-    <EmbeddedResource Include="Cadastro de madeiras.resx">
-      <DependentUpon>Cadastro de madeiras.cs</DependentUpon>
+    <EmbeddedResource Include="CadastroDeMadeira.resx">
+      <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista de alimentos.resx">
+      <DependentUpon>Lista de alimentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista de caminhoes.resx">
+      <DependentUpon>Lista de caminhoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista de eletrodomesticos.resx">
+      <DependentUpon>Lista de eletrodomesticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista de madeira.resx">
+      <DependentUpon>Lista de madeira.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="Cadastro de carros.resx">
-      <DependentUpon>Cadastro de carros.cs</DependentUpon>
->>>>>>> 6c521de1571b33bf54ac684ea126408b144df085
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,6 +134,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -136,6 +148,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualize-arrows-couple-in-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
