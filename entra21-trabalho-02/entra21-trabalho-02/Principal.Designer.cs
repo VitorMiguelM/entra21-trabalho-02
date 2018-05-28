@@ -60,7 +60,7 @@
             this.btnCadastroMadeira.TabIndex = 1;
             this.btnCadastroMadeira.Text = "Cadastro de madeira";
             this.btnCadastroMadeira.UseVisualStyleBackColor = false;
-            this.btnCadastroMadeira.Click += new System.EventHandler(this.btnCadastroMadeira_Click);
+            
             // 
             // btnCadastroAlimentos
             // 
@@ -72,7 +72,7 @@
             this.btnCadastroAlimentos.TabIndex = 2;
             this.btnCadastroAlimentos.Text = "Cadastro de alimentos";
             this.btnCadastroAlimentos.UseVisualStyleBackColor = false;
-            this.btnCadastroAlimentos.Click += new System.EventHandler(this.btnCadastroAlimentos_Click);
+            
             // 
             // btnCadastroCaminhoes
             // 
@@ -84,7 +84,7 @@
             this.btnCadastroCaminhoes.TabIndex = 3;
             this.btnCadastroCaminhoes.Text = "Cadastro de caminhões";
             this.btnCadastroCaminhoes.UseVisualStyleBackColor = false;
-            this.btnCadastroCaminhoes.Click += new System.EventHandler(this.btnCadastroCaminhoes_Click);
+            
             // 
             // btnCadastroEletrodomesticos
             // 
@@ -96,7 +96,7 @@
             this.btnCadastroEletrodomesticos.TabIndex = 4;
             this.btnCadastroEletrodomesticos.Text = "Cadastro de eletrodomésticos";
             this.btnCadastroEletrodomesticos.UseVisualStyleBackColor = false;
-            this.btnCadastroEletrodomesticos.Click += new System.EventHandler(this.btnCadastroEletrodomesticos_Click);
+            
             // 
             // btnCadastroCarrros
             // 

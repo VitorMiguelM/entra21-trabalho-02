@@ -44,18 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cadastro de alimentos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro de alimentos.Designer.cs">
-      <DependentUpon>Cadastro de alimentos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Cadastro de caminhões.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro de caminhões.Designer.cs">
-      <DependentUpon>Cadastro de caminhões.cs</DependentUpon>
-    </Compile>
     <Compile Include="Cadastro de carros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,18 +55,6 @@
     </Compile>
     <Compile Include="Cadastro de computadores.Designer.cs">
       <DependentUpon>Cadastro de computadores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Cadastro de eletrodomésticos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro de eletrodomésticos.Designer.cs">
-      <DependentUpon>Cadastro de eletrodomésticos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Cadastro de madeiras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cadastro de madeiras.Designer.cs">
-      <DependentUpon>Cadastro de madeiras.cs</DependentUpon>
     </Compile>
     <Compile Include="Cadastro de móveis.cs">
       <SubType>Form</SubType>
@@ -92,10 +68,12 @@
     <Compile Include="Cadastro de roupas.Designer.cs">
       <DependentUpon>Cadastro de roupas.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
+    <Compile Include="CadastroDeMadeira.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroDeMadeira.Designer.cs" />
     <Compile Include="Carros.cs" />
->>>>>>> 6c521de1571b33bf54ac684ea126408b144df085
+    <Compile Include="Moveis.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,16 +82,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
-    <EmbeddedResource Include="Cadastro de madeiras.resx">
-      <DependentUpon>Cadastro de madeiras.cs</DependentUpon>
+    <EmbeddedResource Include="Cadastro de carros.resx">
+      <DependentUpon>Cadastro de carros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro de computadores.resx">
+      <DependentUpon>Cadastro de computadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro de móveis.resx">
+      <DependentUpon>Cadastro de móveis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="Cadastro de carros.resx">
-      <DependentUpon>Cadastro de carros.cs</DependentUpon>
->>>>>>> 6c521de1571b33bf54ac684ea126408b144df085
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
