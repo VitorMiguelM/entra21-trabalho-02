@@ -22,29 +22,7 @@ namespace entra21_trabalho_02
 
         }
 
-        private void btnCadastroMadeira_Click(object sender, EventArgs e)
-        {
-            Lista_de_madeira lista_de_madeira = new Lista_de_madeira();
-            lista_de_madeira.Show();
-        }
-
-        private void btnCadastroAlimentos_Click(object sender, EventArgs e)
-        {
-            Lista_de_alimentos cadastro_de_alimentos = new Lista_de_alimentos();
-            cadastro_de_alimentos.Show();
-        }
-
-        private void btnCadastroCaminhoes_Click(object sender, EventArgs e)
-        {
-            Lista_de_caminhoes cadastro_de_caminhoes = new Lista_de_caminhoes();
-            cadastro_de_caminhoes.Show();
-        }
-
-        private void btnCadastroEletrodomesticos_Click(object sender, EventArgs e)
-        {
-            Lista_de_eletrodomesticos cadastro_de_eletrodomésticos = new Lista_de_eletrodomesticos();
-            cadastro_de_eletrodomésticos.Show();
-        }
+       
 
         private void btnCadastroCarrros_Click(object sender, EventArgs e)
         {
