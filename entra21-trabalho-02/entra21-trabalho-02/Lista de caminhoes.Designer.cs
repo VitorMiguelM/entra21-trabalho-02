@@ -1,6 +1,6 @@
 ﻿namespace entra21_trabalho_02
 {
-    partial class Cadastro_de_alimentos
+    partial class Lista_de_caminhoes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Lista_de_caminhoes
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Cadastro_de_alimentos";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Lista_de_caminhoes";
+            this.Text = "Lista_de_caminhoes";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

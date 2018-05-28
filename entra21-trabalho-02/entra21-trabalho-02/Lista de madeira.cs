@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace entra21_trabalho_02
 {
-    public partial class Cadastro_de_madeira : Form
+    public partial class Lista_de_madeira : Form
     {
-        public Cadastro_de_madeira()
+        public Lista_de_madeira()
         {
             InitializeComponent();
+        }
+
+        private void Cadastro_de_madeira_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvListaPeca_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

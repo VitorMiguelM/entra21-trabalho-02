@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace entra21_trabalho_02
 {
-    public partial class Principal : Form
+    public partial class btnListar : Form
     {
-        public Principal()
+        public btnListar()
         {
             InitializeComponent();
         }
@@ -24,25 +24,25 @@ namespace entra21_trabalho_02
 
         private void btnCadastroMadeira_Click(object sender, EventArgs e)
         {
-            Cadastro_de_alimentos cadastro_de_alimentos = new Cadastro_de_alimentos();
-            cadastro_de_alimentos.Show();
+            Lista_de_madeira lista_de_madeira = new Lista_de_madeira();
+            lista_de_madeira.Show();
         }
 
         private void btnCadastroAlimentos_Click(object sender, EventArgs e)
         {
-            Cadastro_de_alimentos cadastro_de_alimentos = new Cadastro_de_alimentos();
+            Lista_de_alimentos cadastro_de_alimentos = new Lista_de_alimentos();
             cadastro_de_alimentos.Show();
         }
 
         private void btnCadastroCaminhoes_Click(object sender, EventArgs e)
         {
-            Cadastro_de_caminhões cadastro_de_caminhoes = new Cadastro_de_caminhões();
+            Lista_de_caminhoes cadastro_de_caminhoes = new Lista_de_caminhoes();
             cadastro_de_caminhoes.Show();
         }
 
         private void btnCadastroEletrodomesticos_Click(object sender, EventArgs e)
         {
-            Cadastro_de_eletrodomésticos cadastro_de_eletrodomésticos = new Cadastro_de_eletrodomésticos();
+            Lista_de_eletrodomesticos cadastro_de_eletrodomésticos = new Lista_de_eletrodomesticos();
             cadastro_de_eletrodomésticos.Show();
         }
 

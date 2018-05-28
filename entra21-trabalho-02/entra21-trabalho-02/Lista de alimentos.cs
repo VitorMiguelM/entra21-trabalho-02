@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace entra21_trabalho_02
 {
-    public partial class Cadastro_de_eletrodomésticos : Form
+    public partial class Lista_de_alimentos : Form
     {
-        public Cadastro_de_eletrodomésticos()
+        public Lista_de_alimentos()
         {
             InitializeComponent();
         }

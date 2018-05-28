@@ -1,6 +1,6 @@
 ﻿namespace entra21_trabalho_02
 {
-    partial class Cadastro_de_eletrodomésticos
+    partial class CadastroDeMadeira
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Cadastro_de_eletrodomésticos";
+            this.Text = "CadastroDeMadeira";
         }
 
         #endregion

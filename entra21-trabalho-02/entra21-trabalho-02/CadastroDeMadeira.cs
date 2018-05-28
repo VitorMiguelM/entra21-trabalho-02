@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace entra21_trabalho_02
 {
-    public partial class Cadastro_de_caminhões : Form
+    public partial class CadastroDeMadeira : Form
     {
-        public Cadastro_de_caminhões()
+        public CadastroDeMadeira()
         {
             InitializeComponent();
         }
