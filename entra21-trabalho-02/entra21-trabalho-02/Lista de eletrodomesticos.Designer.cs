@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "Lista_de_eletrodomesticos";
-            this.Text = "Cadastro_de_eletrodomésticos";
+            this.Text = "Lista_de_eletrodomesticos";
             this.ResumeLayout(false);
 
         }

@@ -8,6 +8,8 @@ namespace entra21_trabalho_02
 {
     static class Program
     {
+
+        public static List<Carros> carro = new List<Carros>();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

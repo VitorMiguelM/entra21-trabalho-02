@@ -92,6 +92,10 @@
     <Compile Include="Cadastro de roupas.Designer.cs">
       <DependentUpon>Cadastro de roupas.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Carros.cs" />
+>>>>>>> 6c521de1571b33bf54ac684ea126408b144df085
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,11 +104,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Cadastro de madeiras.resx">
       <DependentUpon>Cadastro de madeiras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Cadastro de carros.resx">
+      <DependentUpon>Cadastro de carros.cs</DependentUpon>
+>>>>>>> 6c521de1571b33bf54ac684ea126408b144df085
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
