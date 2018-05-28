@@ -92,6 +92,7 @@
     <Compile Include="Cadastro de roupas.Designer.cs">
       <DependentUpon>Cadastro de roupas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Carros.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>

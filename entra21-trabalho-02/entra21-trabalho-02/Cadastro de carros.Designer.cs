@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNomeDaPessoa = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -58,18 +58,19 @@
             this.txtProfissao = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.cbEstado = new System.Windows.Forms.ComboBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnCadastrar
+            // btnSalvar
             // 
-            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.Location = new System.Drawing.Point(374, 379);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(182, 56);
-            this.btnCadastrar.TabIndex = 0;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Location = new System.Drawing.Point(521, 334);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(182, 56);
+            this.btnSalvar.TabIndex = 0;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // label1
             // 
@@ -147,7 +148,7 @@
             // mtbPlaca
             // 
             this.mtbPlaca.Location = new System.Drawing.Point(142, 110);
-            this.mtbPlaca.Mask = "(99) 9999-9999";
+            this.mtbPlaca.Mask = "LLL-0000";
             this.mtbPlaca.Name = "mtbPlaca";
             this.mtbPlaca.Size = new System.Drawing.Size(138, 20);
             this.mtbPlaca.TabIndex = 10;
@@ -343,11 +344,23 @@
             this.cbEstado.Size = new System.Drawing.Size(189, 21);
             this.cbEstado.TabIndex = 29;
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(326, 334);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(182, 56);
+            this.btnCancelar.TabIndex = 30;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // Cadastro_de_carros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(954, 462);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtProfissao);
@@ -377,7 +390,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNomeDaPessoa);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnCadastrar);
+            this.Controls.Add(this.btnSalvar);
             this.Name = "Cadastro_de_carros";
             this.Text = "Cadastro_de_carros";
             this.ResumeLayout(false);
@@ -387,7 +400,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNomeDaPessoa;
         private System.Windows.Forms.Label label2;
@@ -417,6 +430,7 @@
         private System.Windows.Forms.TextBox txtProfissao;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox cbEstado;
+        private System.Windows.Forms.Button btnCancelar;
         
     }
 }
