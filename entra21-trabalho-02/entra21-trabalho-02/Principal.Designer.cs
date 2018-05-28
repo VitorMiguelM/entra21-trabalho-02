@@ -1,6 +1,6 @@
 ﻿namespace entra21_trabalho_02
 {
-    partial class Cadastros
+    partial class btnListar
     {
         /// <summary>
         /// Required designer variable.
@@ -146,7 +146,7 @@
             this.btnCadstroRoupas.UseVisualStyleBackColor = false;
             this.btnCadstroRoupas.Click += new System.EventHandler(this.btnCadstroRoupas_Click);
             // 
-            // Cadastros
+            // btnListar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -161,7 +161,7 @@
             this.Controls.Add(this.btnCadastroAlimentos);
             this.Controls.Add(this.btnCadastroMadeira);
             this.Controls.Add(this.label1);
-            this.Name = "Cadastros";
+            this.Name = "btnListar";
             this.Text = "Cadastros";
             this.ResumeLayout(false);
             this.PerformLayout();

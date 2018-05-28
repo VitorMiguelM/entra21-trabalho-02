@@ -54,7 +54,7 @@
             this.txtDestino = new System.Windows.Forms.TextBox();
             this.nupQuantidadeCaminhoesDisponiveis = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
-            this.txtPrecoPorUnidade = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.tbHigrospicidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbFlexibilidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbDurabilidade)).BeginInit();
@@ -292,12 +292,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtPrecoPorUnidade
+            // textBox3
             // 
-            this.txtPrecoPorUnidade.Location = new System.Drawing.Point(483, 187);
-            this.txtPrecoPorUnidade.Name = "txtPrecoPorUnidade";
-            this.txtPrecoPorUnidade.Size = new System.Drawing.Size(155, 20);
-            this.txtPrecoPorUnidade.TabIndex = 28;
+            this.textBox3.Location = new System.Drawing.Point(483, 187);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(155, 20);
+            this.textBox3.TabIndex = 28;
             // 
             // CadastroDeMadeira
             // 
@@ -305,7 +305,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orchid;
             this.ClientSize = new System.Drawing.Size(643, 312);
-            this.Controls.Add(this.txtPrecoPorUnidade);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.nupQuantidadeCaminhoesDisponiveis);
             this.Controls.Add(this.txtDestino);
@@ -377,6 +377,6 @@
         private System.Windows.Forms.TextBox txtDestino;
         private System.Windows.Forms.NumericUpDown nupQuantidadeCaminhoesDisponiveis;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtPrecoPorUnidade;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
