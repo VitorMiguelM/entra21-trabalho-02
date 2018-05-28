@@ -40,6 +40,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btncancelar = new System.Windows.Forms.Button();
             this.btnsalvar = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.mtbTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.rbMacho = new System.Windows.Forms.RadioButton();
+            this.rbMulher = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label5
@@ -139,13 +146,83 @@
             this.btnsalvar.TabIndex = 13;
             this.btnsalvar.Text = "SALVAR";
             this.btnsalvar.UseVisualStyleBackColor = true;
-            
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(59, 206);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(49, 13);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "Telefone";
+            // 
+            // mtbTelefone
+            // 
+            this.mtbTelefone.Location = new System.Drawing.Point(114, 203);
+            this.mtbTelefone.Mask = "(99)9999-9999";
+            this.mtbTelefone.Name = "mtbTelefone";
+            this.mtbTelefone.Size = new System.Drawing.Size(151, 20);
+            this.mtbTelefone.TabIndex = 26;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(66, 142);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 13);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "E-MAIL";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(114, 139);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(693, 20);
+            this.textBox2.TabIndex = 29;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(73, 174);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 30;
+            this.label7.Text = "Sexo";
+            // 
+            // rbMacho
+            // 
+            this.rbMacho.AutoSize = true;
+            this.rbMacho.Location = new System.Drawing.Point(114, 172);
+            this.rbMacho.Name = "rbMacho";
+            this.rbMacho.Size = new System.Drawing.Size(64, 17);
+            this.rbMacho.TabIndex = 31;
+            this.rbMacho.TabStop = true;
+            this.rbMacho.Text = "MACHO";
+            this.rbMacho.UseVisualStyleBackColor = true;
+            // 
+            // rbMulher
+            // 
+            this.rbMulher.AutoSize = true;
+            this.rbMulher.Location = new System.Drawing.Point(205, 172);
+            this.rbMulher.Name = "rbMulher";
+            this.rbMulher.Size = new System.Drawing.Size(57, 17);
+            this.rbMulher.TabIndex = 32;
+            this.rbMulher.TabStop = true;
+            this.rbMulher.Text = "Mulher";
+            this.rbMulher.UseVisualStyleBackColor = true;
             // 
             // Cadastro_de_móveis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(863, 453);
+            this.Controls.Add(this.rbMulher);
+            this.Controls.Add(this.rbMacho);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.mtbTelefone);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
@@ -179,5 +256,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.Button btnsalvar;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.MaskedTextBox mtbTelefone;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.RadioButton rbMacho;
+        private System.Windows.Forms.RadioButton rbMulher;
     }
 }
