@@ -26,8 +26,8 @@ namespace entra21_trabalho_02
 
         private void btnCadastroCarrros_Click(object sender, EventArgs e)
         {
-            Cadastro_de_carros cadastro_de_carros = new Cadastro_de_carros();
-            cadastro_de_carros.Show();
+            Listar_de_carro listarCarro = new Listar_de_carro();
+            listarCarro.ShowDialog();
         }
 
         private void btnCadastroMoveis_Click(object sender, EventArgs e)
