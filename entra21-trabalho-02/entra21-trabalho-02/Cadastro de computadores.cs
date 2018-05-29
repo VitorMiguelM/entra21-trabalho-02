@@ -233,6 +233,11 @@ namespace entra21_trabalho_02
             txtCidade.Text = "";
         }
 
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
+
 
 
     }

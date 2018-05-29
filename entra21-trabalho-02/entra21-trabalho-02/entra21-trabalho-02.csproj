@@ -104,6 +104,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roupas.cs" />
     <EmbeddedResource Include="Cadastro de carros.resx">
       <DependentUpon>Cadastro de carros.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,10 +114,12 @@
     <EmbeddedResource Include="Cadastro de móveis.resx">
       <DependentUpon>Cadastro de móveis.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro de roupas.resx">
+      <DependentUpon>Cadastro de roupas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastroDeMadeira.resx">
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </EmbeddedResource>
-    
     <EmbeddedResource Include="Lista de madeira.resx">
       <DependentUpon>Lista de madeira.cs</DependentUpon>
     </EmbeddedResource>
