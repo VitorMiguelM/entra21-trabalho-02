@@ -50,8 +50,8 @@ namespace entra21_trabalho_02
 
         private void btnCadastroMadeira_Click(object sender, EventArgs e)
         {
-            Cadastro_de_madeira cadastro_de_madeira = new Cadastro_de_madeira();
-            cadastro_de_madeira.Show();
+            Lista_de_madeira lista_de_madeira = new Lista_de_madeira();
+            lista_de_madeira.Show();
         }
     }
 }
