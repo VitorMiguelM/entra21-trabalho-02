@@ -32,20 +32,20 @@ namespace entra21_trabalho_02
 
         private void btnCadastroMoveis_Click(object sender, EventArgs e)
         {
-            Cadastro_de_móveis cadastro_de_moveis = new Cadastro_de_móveis();
-            cadastro_de_moveis.Show();
+            Listar_Moveis listarmoveis = new Listar_Moveis();
+            listarmoveis.ShowDialog();
         }
 
         private void btnCadastroComputadores_Click(object sender, EventArgs e)
         {
-            Cadastro_de_computadores cadastro_de_cmputadores = new Cadastro_de_computadores();
-            cadastro_de_cmputadores.Show();
+            Listar_PC listarpc = new Listar_PC();
+            listarpc.ShowDialog();
         }
 
         private void btnCadstroRoupas_Click(object sender, EventArgs e)
         {
-            Cadastro_de_roupas cadastro_de_roupas = new Cadastro_de_roupas();
-            cadastro_de_roupas.Show();
+            Listar_Roupas listarroupas = new Listar_Roupas();
+            listarroupas.ShowDialog();
         }
 
         private void btnCadastroMadeira_Click(object sender, EventArgs e)
