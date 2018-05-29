@@ -24,10 +24,7 @@ namespace entra21_trabalho_02
 
         }
 
-        private void CadastroDeMadeira_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
       
     }

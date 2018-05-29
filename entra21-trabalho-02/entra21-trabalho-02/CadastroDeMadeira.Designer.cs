@@ -272,7 +272,7 @@
             this.txtDestino.Name = "txtDestino";
             this.txtDestino.Size = new System.Drawing.Size(155, 20);
             this.txtDestino.TabIndex = 25;
-            this.txtDestino.TextChanged += new System.EventHandler(this.txtDestino_TextChanged);
+            
             // 
             // nupQuantidadeCaminhoesDisponiveis
             // 
@@ -334,7 +334,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CadastroDeMadeira";
             this.Text = "Cadastro de madeira";
-            this.Load += new System.EventHandler(this.CadastroDeMadeira_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.tbHigrospicidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbFlexibilidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbDurabilidade)).EndInit();
