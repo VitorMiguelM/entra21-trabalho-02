@@ -75,17 +75,11 @@
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </Compile>
     <Compile Include="Carros.cs" />
-<<<<<<< HEAD
-    <Compile Include="Madeira.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Moveis.cs">
       <SubType>Code</SubType>
     </Compile>
-=======
     <Compile Include="Madeira.cs" />
     <Compile Include="Moveis.cs" />
->>>>>>> 7e9038dd52e4e02feafff5e46f4bfdaf8ffcdac5
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
