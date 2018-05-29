@@ -76,7 +76,7 @@ namespace entra21_trabalho_02
                 MessageBox.Show("Demanda deve ser preenchido corretamente !");
             }
 
-            if (txtDestino.Text.Length == 0)
+            if (txtDestino.Text.Length <= 3)
             {
                 MessageBox.Show("Destino deve ser preenchido corretamente !");
             }
