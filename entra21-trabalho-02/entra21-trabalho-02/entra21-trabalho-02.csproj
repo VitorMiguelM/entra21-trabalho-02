@@ -115,13 +115,11 @@
     <EmbeddedResource Include="CadastroDeMadeira.resx">
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Listar de carro.resx">
       <DependentUpon>Listar de carro.cs</DependentUpon>
-=======
+    </EmbeddedResource>
     <EmbeddedResource Include="Lista de madeira.resx">
       <DependentUpon>Lista de madeira.cs</DependentUpon>
->>>>>>> 0346dacd526d0ef92a07b007871d6f0219254744
     </EmbeddedResource>
     <EmbeddedResource Include="Listar de carro.resx">
       <DependentUpon>Listar de carro.cs</DependentUpon>
