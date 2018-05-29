@@ -75,6 +75,7 @@
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </Compile>
     <Compile Include="Carros.cs" />
+    <Compile Include="Computador.cs" />
     <Compile Include="Lista de madeira.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,11 +116,8 @@
     <EmbeddedResource Include="CadastroDeMadeira.resx">
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Listar de carro.resx">
-      <DependentUpon>Listar de carro.cs</DependentUpon>
-    </EmbeddedResource>
+    
     <EmbeddedResource Include="Lista de madeira.resx">
-
       <DependentUpon>Lista de madeira.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Listar de carro.resx">

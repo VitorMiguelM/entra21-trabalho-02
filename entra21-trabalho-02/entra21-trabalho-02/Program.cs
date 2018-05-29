@@ -8,6 +8,7 @@ namespace entra21_trabalho_02
 {
     static class Program
     {
+        public static List<Computador> computadores = new List<Computador>();
         public static List<Moveis> movel = new List<Moveis>();
         public static List<Carros> carro = new List<Carros>();
         /// <summary>
