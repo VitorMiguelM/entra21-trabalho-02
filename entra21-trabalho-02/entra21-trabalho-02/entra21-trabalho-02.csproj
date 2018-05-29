@@ -76,17 +76,35 @@
     </Compile>
     <Compile Include="Carros.cs" />
     <Compile Include="Computador.cs" />
-    <Compile Include="Lista de madeira.cs">
+    <Compile Include="Listar de madeira.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lista de madeira.Designer.cs">
-      <DependentUpon>Lista de madeira.cs</DependentUpon>
+    <Compile Include="Listar de madeira.Designer.cs">
+      <DependentUpon>Listar de madeira.cs</DependentUpon>
     </Compile>
     <Compile Include="Listar de carro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Listar de carro.Designer.cs">
       <DependentUpon>Listar de carro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listar Moveis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listar Moveis.Designer.cs">
+      <DependentUpon>Listar Moveis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listar PC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listar PC.Designer.cs">
+      <DependentUpon>Listar PC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listar Roupas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listar Roupas.Designer.cs">
+      <DependentUpon>Listar Roupas.cs</DependentUpon>
     </Compile>
     <Compile Include="Madeira.cs">
       <SubType>Code</SubType>
@@ -120,11 +138,20 @@
     <EmbeddedResource Include="CadastroDeMadeira.resx">
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lista de madeira.resx">
-      <DependentUpon>Lista de madeira.cs</DependentUpon>
+    <EmbeddedResource Include="Listar de madeira.resx">
+      <DependentUpon>Listar de madeira.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Listar de carro.resx">
       <DependentUpon>Listar de carro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listar Moveis.resx">
+      <DependentUpon>Listar Moveis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listar PC.resx">
+      <DependentUpon>Listar PC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listar Roupas.resx">
+      <DependentUpon>Listar Roupas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
