@@ -86,7 +86,7 @@
             this.txtNomeDaPessoa.Location = new System.Drawing.Point(142, 27);
             this.txtNomeDaPessoa.Name = "txtNomeDaPessoa";
             this.txtNomeDaPessoa.Size = new System.Drawing.Size(767, 20);
-            this.txtNomeDaPessoa.TabIndex = 2;
+            this.txtNomeDaPessoa.TabIndex = 1;
             // 
             // label2
             // 
@@ -102,7 +102,7 @@
             this.txtMarca.Location = new System.Drawing.Point(142, 72);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(138, 20);
-            this.txtMarca.TabIndex = 4;
+            this.txtMarca.TabIndex = 2;
             // 
             // label3
             // 
@@ -118,7 +118,7 @@
             this.txtAlturaDoCarro.Location = new System.Drawing.Point(369, 72);
             this.txtAlturaDoCarro.Name = "txtAlturaDoCarro";
             this.txtAlturaDoCarro.Size = new System.Drawing.Size(265, 20);
-            this.txtAlturaDoCarro.TabIndex = 6;
+            this.txtAlturaDoCarro.TabIndex = 3;
             // 
             // label4
             // 
@@ -134,7 +134,7 @@
             this.txtPesoDocarro.Location = new System.Drawing.Point(720, 69);
             this.txtPesoDocarro.Name = "txtPesoDocarro";
             this.txtPesoDocarro.Size = new System.Drawing.Size(189, 20);
-            this.txtPesoDocarro.TabIndex = 8;
+            this.txtPesoDocarro.TabIndex = 4;
             // 
             // label5
             // 
@@ -151,7 +151,7 @@
             this.mtbPlaca.Mask = "LLL-0000";
             this.mtbPlaca.Name = "mtbPlaca";
             this.mtbPlaca.Size = new System.Drawing.Size(138, 20);
-            this.mtbPlaca.TabIndex = 10;
+            this.mtbPlaca.TabIndex = 5;
             // 
             // label6
             // 
@@ -167,7 +167,7 @@
             this.txtCidade.Location = new System.Drawing.Point(369, 110);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(265, 20);
-            this.txtCidade.TabIndex = 12;
+            this.txtCidade.TabIndex = 6;
             // 
             // label7
             // 
@@ -184,7 +184,7 @@
             this.mtbCPF.Mask = "999.999.99-99";
             this.mtbCPF.Name = "mtbCPF";
             this.mtbCPF.Size = new System.Drawing.Size(189, 20);
-            this.mtbCPF.TabIndex = 14;
+            this.mtbCPF.TabIndex = 7;
             // 
             // label8
             // 
@@ -200,7 +200,7 @@
             this.txtIdade.Location = new System.Drawing.Point(142, 152);
             this.txtIdade.Name = "txtIdade";
             this.txtIdade.Size = new System.Drawing.Size(138, 20);
-            this.txtIdade.TabIndex = 16;
+            this.txtIdade.TabIndex = 8;
             // 
             // label9
             // 
@@ -217,7 +217,7 @@
             this.mtbRG.Mask = "99.999.999-9";
             this.mtbRG.Name = "mtbRG";
             this.mtbRG.Size = new System.Drawing.Size(189, 20);
-            this.mtbRG.TabIndex = 18;
+            this.mtbRG.TabIndex = 11;
             // 
             // label10
             // 
@@ -234,7 +234,7 @@
             this.rbMacho.Location = new System.Drawing.Point(401, 161);
             this.rbMacho.Name = "rbMacho";
             this.rbMacho.Size = new System.Drawing.Size(58, 17);
-            this.rbMacho.TabIndex = 20;
+            this.rbMacho.TabIndex = 9;
             this.rbMacho.TabStop = true;
             this.rbMacho.Text = "Macho";
             this.rbMacho.UseVisualStyleBackColor = true;
@@ -245,7 +245,7 @@
             this.rbMulher.Location = new System.Drawing.Point(518, 161);
             this.rbMulher.Name = "rbMulher";
             this.rbMulher.Size = new System.Drawing.Size(57, 17);
-            this.rbMulher.TabIndex = 21;
+            this.rbMulher.TabIndex = 10;
             this.rbMulher.TabStop = true;
             this.rbMulher.Text = "Mulher";
             this.rbMulher.UseVisualStyleBackColor = true;
@@ -255,7 +255,7 @@
             this.txtEmail.Location = new System.Drawing.Point(142, 196);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(767, 20);
-            this.txtEmail.TabIndex = 22;
+            this.txtEmail.TabIndex = 12;
             // 
             // label11
             // 
@@ -272,7 +272,7 @@
             this.mtbTelefone.Mask = "(99)9999-9999";
             this.mtbTelefone.Name = "mtbTelefone";
             this.mtbTelefone.Size = new System.Drawing.Size(151, 20);
-            this.mtbTelefone.TabIndex = 24;
+            this.mtbTelefone.TabIndex = 13;
             // 
             // label12
             // 
@@ -297,7 +297,7 @@
             this.txtProfissao.Location = new System.Drawing.Point(369, 240);
             this.txtProfissao.Name = "txtProfissao";
             this.txtProfissao.Size = new System.Drawing.Size(265, 20);
-            this.txtProfissao.TabIndex = 27;
+            this.txtProfissao.TabIndex = 14;
             // 
             // label14
             // 
@@ -342,7 +342,7 @@
             this.cbEstado.Location = new System.Drawing.Point(720, 239);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(189, 21);
-            this.cbEstado.TabIndex = 29;
+            this.cbEstado.TabIndex = 15;
             // 
             // btnCancelar
             // 

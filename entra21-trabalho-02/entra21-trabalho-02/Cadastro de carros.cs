@@ -21,6 +21,102 @@ namespace entra21_trabalho_02
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+
+
+
+
+
+            if (txtNomeDaPessoa.Text.Length < 4)
+            {
+                MessageBox.Show("Nome deve conter no mínimo 4 caracteres");
+                txtNomeDaPessoa.Focus();
+                return;
+            }
+            if (txtMarca.Text.Length == 0)
+            {
+                MessageBox.Show("Campo Marca deve ser preenchido");
+                txtMarca.Focus();
+                return;
+            }
+            if (txtAlturaDoCarro.Text.Length == 0)
+            {
+                MessageBox.Show("Campo altura do carro deve ser preenchido");
+                txtAlturaDoCarro.Focus();
+                return;
+            }
+            if (txtPesoDocarro.Text.Length == 0)
+            {
+                MessageBox.Show("Campo peso do carro deve ser preenchido");
+                txtPesoDocarro.Focus();
+                return;
+            }
+            if (mtbPlaca.Text.Length == 0)
+            {
+                MessageBox.Show("Campo placa deve ser preenchido");
+                mtbPlaca.Focus();
+                return;
+            }
+            if (txtCidade.Text.Length == 0)
+            {
+                MessageBox.Show("Campo Cidade deve ser preenchido");
+                txtCidade.Focus();
+                return;
+            }
+            if (mtbCPF.Text.Length == 0)
+            {
+                MessageBox.Show("Campo CPF deve ser preenchido");
+                mtbCPF.Focus();
+                return;
+            }
+            if (txtIdade.Text.Length == 0)
+            {
+                MessageBox.Show("Campo idade deve ser preenchido");
+                txtIdade.Focus();
+                return;
+            }
+            if (mtbRG.Text.Length == 0)
+            {
+                MessageBox.Show("O campo RG deve ser preenchido");
+                mtbRG.Focus();
+                return;
+            }
+            if (rbMacho.Text.Length == 0)
+            {
+                MessageBox.Show("Campo sexo deve ser preenchido");
+                rbMacho.Focus();
+                return;
+            }
+            if (txtEmail.Text.Length == 0)
+            {
+                MessageBox.Show("Campo email deve ser preenchido");
+                txtEmail.Focus();
+                return;
+            }
+            if (mtbTelefone.Text.Length == 0)
+            {
+                MessageBox.Show("Campo telefone deve ser preenchido");
+                mtbTelefone.Focus();
+                return;
+            }
+            if (txtProfissao.Text.Length == 0)
+            {
+                MessageBox.Show("Campo Profissão deve ser preenchido");
+                txtProfissao.Focus();
+                return;
+            }
+            if (cbEstado.SelectedIndex < 0)
+            {
+                MessageBox.Show("Campo Estado deve ser preenchido");
+                cbEstado.DroppedDown = true;
+                return;
+            }
+
+
+
+
+
+
+
             try
             {
                 string nome = txtNomeDaPessoa.Text;
@@ -31,6 +127,8 @@ namespace entra21_trabalho_02
                 txtNomeDaPessoa.Focus();
                 return;
             }
+
+
             try
             {
                 string marca = txtMarca.Text;
@@ -142,95 +240,6 @@ namespace entra21_trabalho_02
                 return;
             }
 
-
-
-
-
-
-            if (txtNomeDaPessoa.Text.Length < 4)
-            {
-                MessageBox.Show("Nome deve conter no mínimo 4 caracteres");
-                txtNomeDaPessoa.Focus();
-                return;
-            }
-            if (txtMarca.Text.Length == 0)
-            {
-                MessageBox.Show("Campo Marca deve ser preenchido");
-                txtMarca.Focus();
-                return;
-            }
-            if (txtAlturaDoCarro.Text.Length == 0)
-            {
-                MessageBox.Show("Campo altura do carro deve ser preenchido");
-                txtAlturaDoCarro.Focus();
-                return;
-            }
-            if (txtPesoDocarro.Text.Length == 0)
-            {
-                MessageBox.Show("Campo peso do carro deve ser preenchido");
-                txtPesoDocarro.Focus();
-                return;
-            }
-            if (mtbPlaca.Text.Length == 0)
-            {
-                MessageBox.Show("Campo placa deve ser preenchido");
-                mtbPlaca.Focus();
-                return;
-            }
-            if (txtCidade.Text.Length == 0)
-            {
-                MessageBox.Show("Campo Cidade deve ser preenchido");
-                txtCidade.Focus();
-                return;
-            }
-            if (mtbCPF.Text.Length == 0)
-            {
-                MessageBox.Show("Campo CPF deve ser preenchido");
-                mtbCPF.Focus();
-                return;
-            }
-            if (txtIdade.Text.Length == 0)
-            {
-                MessageBox.Show("Campo idade deve ser preenchido");
-                txtIdade.Focus();
-                return;
-            }
-            if (mtbRG.Text.Length == 0)
-            {
-                MessageBox.Show("O campo RG deve ser preenchido");
-                mtbRG.Focus();
-                return;
-            }
-            if (rbMacho.Text.Length == 0)
-            {
-                MessageBox.Show("Campo sexo deve ser preenchido");
-                rbMacho.Focus();
-                return;
-            }
-            if (txtEmail.Text.Length == 0)
-            {
-                MessageBox.Show("Campo email deve ser preenchido");
-                txtEmail.Focus();
-                return;
-            }
-            if (mtbTelefone.Text.Length == 0)
-            {
-                MessageBox.Show("Campo telefone deve ser preenchido");
-                mtbTelefone.Focus();
-                return;
-            }
-            if (txtProfissao.Text.Length == 0)
-            {
-                MessageBox.Show("Campo Profissão deve ser preenchido");
-                txtProfissao.Focus();
-                return;
-            }
-            if (cbEstado.SelectedIndex < 0)
-            {
-                MessageBox.Show("Campo Estado deve ser preenchido");
-                cbEstado.DroppedDown = true;
-                return;
-            }
             
             Carros carros = new Carros()
             {

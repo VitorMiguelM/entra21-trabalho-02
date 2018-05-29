@@ -16,5 +16,11 @@ namespace entra21_trabalho_02
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            Cadastro_de_carros cadastroCarros = new Cadastro_de_carros();
+            cadastroCarros.ShowDialog();
+        }
     }
 }

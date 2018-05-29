@@ -46,7 +46,7 @@
             this.btnAtualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAtualizar.Image = ((System.Drawing.Image)(resources.GetObject("btnAtualizar.Image")));
             this.btnAtualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAtualizar.Location = new System.Drawing.Point(184, 73);
+            this.btnAtualizar.Location = new System.Drawing.Point(503, 73);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(89, 46);
             this.btnAtualizar.TabIndex = 9;
@@ -60,7 +60,7 @@
             this.btnExcluir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
             this.btnExcluir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExcluir.Location = new System.Drawing.Point(279, 73);
+            this.btnExcluir.Location = new System.Drawing.Point(598, 73);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(89, 46);
             this.btnExcluir.TabIndex = 8;
@@ -74,7 +74,7 @@
             this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(378, 73);
+            this.btnEditar.Location = new System.Drawing.Point(697, 73);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(89, 44);
             this.btnEditar.TabIndex = 7;
@@ -88,7 +88,7 @@
             this.btnCadastrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCadastrar.Image")));
             this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastrar.Location = new System.Drawing.Point(473, 74);
+            this.btnCadastrar.Location = new System.Drawing.Point(792, 74);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(95, 44);
             this.btnCadastrar.TabIndex = 6;
@@ -96,6 +96,7 @@
             this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // dgvListaPeca
             // 
@@ -110,10 +111,10 @@
             this.Cor,
             this.Tipo,
             this.Valor});
-            this.dgvListaPeca.Location = new System.Drawing.Point(85, 143);
+            this.dgvListaPeca.Location = new System.Drawing.Point(85, 148);
             this.dgvListaPeca.Name = "dgvListaPeca";
             this.dgvListaPeca.ReadOnly = true;
-            this.dgvListaPeca.Size = new System.Drawing.Size(483, 390);
+            this.dgvListaPeca.Size = new System.Drawing.Size(802, 392);
             this.dgvListaPeca.TabIndex = 5;
             // 
             // Nome
@@ -144,7 +145,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 607);
+            this.ClientSize = new System.Drawing.Size(972, 609);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnEditar);
