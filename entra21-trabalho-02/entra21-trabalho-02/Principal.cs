@@ -47,5 +47,11 @@ namespace entra21_trabalho_02
             Cadastro_de_roupas cadastro_de_roupas = new Cadastro_de_roupas();
             cadastro_de_roupas.Show();
         }
+
+        private void btnCadastroMadeira_Click(object sender, EventArgs e)
+        {
+            Cadastro_de_madeira cadastro_de_madeira = new Cadastro_de_madeira();
+            cadastro_de_madeira.Show();
+        }
     }
 }

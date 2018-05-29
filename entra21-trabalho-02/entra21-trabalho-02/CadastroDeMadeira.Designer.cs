@@ -1,6 +1,6 @@
 ﻿namespace entra21_trabalho_02
 {
-    partial class CadastroDeMadeira
+    partial class Cadastro_de_madeira
     {
         /// <summary>
         /// Required designer variable.
@@ -48,13 +48,13 @@
             this.tbResistenciaTraccao = new System.Windows.Forms.TrackBar();
             this.tbResistenciaFlexao = new System.Windows.Forms.TrackBar();
             this.tbQualidade = new System.Windows.Forms.TrackBar();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLocalDeExtracao = new System.Windows.Forms.TextBox();
+            this.txtDemanda = new System.Windows.Forms.TextBox();
             this.nupTempoExistencia = new System.Windows.Forms.NumericUpDown();
             this.txtDestino = new System.Windows.Forms.TextBox();
             this.nupQuantidadeCaminhoesDisponiveis = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.txtPrecoUnidade = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.tbHigrospicidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbFlexibilidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbDurabilidade)).BeginInit();
@@ -199,119 +199,125 @@
             // tbHigrospicidade
             // 
             this.tbHigrospicidade.Location = new System.Drawing.Point(157, 38);
+            this.tbHigrospicidade.Maximum = 2;
             this.tbHigrospicidade.Name = "tbHigrospicidade";
             this.tbHigrospicidade.Size = new System.Drawing.Size(155, 45);
-            this.tbHigrospicidade.TabIndex = 13;
+            this.tbHigrospicidade.TabIndex = 1;
             // 
             // tbFlexibilidade
             // 
             this.tbFlexibilidade.Location = new System.Drawing.Point(483, 38);
+            this.tbFlexibilidade.Maximum = 2;
             this.tbFlexibilidade.Name = "tbFlexibilidade";
             this.tbFlexibilidade.Size = new System.Drawing.Size(155, 45);
-            this.tbFlexibilidade.TabIndex = 14;
+            this.tbFlexibilidade.TabIndex = 2;
             // 
             // tbDurabilidade
             // 
             this.tbDurabilidade.Location = new System.Drawing.Point(157, 74);
+            this.tbDurabilidade.Maximum = 2;
             this.tbDurabilidade.Name = "tbDurabilidade";
             this.tbDurabilidade.Size = new System.Drawing.Size(155, 45);
-            this.tbDurabilidade.TabIndex = 15;
+            this.tbDurabilidade.TabIndex = 3;
             // 
             // tbResistenciaCompressao
             // 
             this.tbResistenciaCompressao.Location = new System.Drawing.Point(483, 74);
+            this.tbResistenciaCompressao.Maximum = 2;
             this.tbResistenciaCompressao.Name = "tbResistenciaCompressao";
             this.tbResistenciaCompressao.Size = new System.Drawing.Size(155, 45);
-            this.tbResistenciaCompressao.TabIndex = 16;
+            this.tbResistenciaCompressao.TabIndex = 4;
             // 
             // tbResistenciaTraccao
             // 
             this.tbResistenciaTraccao.Location = new System.Drawing.Point(157, 106);
+            this.tbResistenciaTraccao.Maximum = 2;
             this.tbResistenciaTraccao.Name = "tbResistenciaTraccao";
             this.tbResistenciaTraccao.Size = new System.Drawing.Size(155, 45);
-            this.tbResistenciaTraccao.TabIndex = 17;
+            this.tbResistenciaTraccao.TabIndex = 5;
             // 
             // tbResistenciaFlexao
             // 
             this.tbResistenciaFlexao.Location = new System.Drawing.Point(483, 106);
+            this.tbResistenciaFlexao.Maximum = 2;
             this.tbResistenciaFlexao.Name = "tbResistenciaFlexao";
             this.tbResistenciaFlexao.Size = new System.Drawing.Size(155, 45);
-            this.tbResistenciaFlexao.TabIndex = 18;
+            this.tbResistenciaFlexao.TabIndex = 6;
             // 
             // tbQualidade
             // 
             this.tbQualidade.Location = new System.Drawing.Point(157, 138);
+            this.tbQualidade.Maximum = 2;
             this.tbQualidade.Name = "tbQualidade";
             this.tbQualidade.Size = new System.Drawing.Size(155, 45);
             this.tbQualidade.TabIndex = 19;
             // 
-            // textBox1
+            // txtLocalDeExtracao
             // 
-            this.textBox1.Location = new System.Drawing.Point(157, 182);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(155, 20);
-            this.textBox1.TabIndex = 20;
+            this.txtLocalDeExtracao.Location = new System.Drawing.Point(157, 182);
+            this.txtLocalDeExtracao.Name = "txtLocalDeExtracao";
+            this.txtLocalDeExtracao.Size = new System.Drawing.Size(155, 20);
+            this.txtLocalDeExtracao.TabIndex = 7;
             // 
-            // textBox2
+            // txtDemanda
             // 
-            this.textBox2.Location = new System.Drawing.Point(157, 225);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(155, 20);
-            this.textBox2.TabIndex = 21;
+            this.txtDemanda.Location = new System.Drawing.Point(157, 225);
+            this.txtDemanda.Name = "txtDemanda";
+            this.txtDemanda.Size = new System.Drawing.Size(155, 20);
+            this.txtDemanda.TabIndex = 10;
             // 
             // nupTempoExistencia
             // 
             this.nupTempoExistencia.Location = new System.Drawing.Point(483, 151);
             this.nupTempoExistencia.Name = "nupTempoExistencia";
             this.nupTempoExistencia.Size = new System.Drawing.Size(155, 20);
-            this.nupTempoExistencia.TabIndex = 23;
+            this.nupTempoExistencia.TabIndex = 8;
             // 
             // txtDestino
             // 
             this.txtDestino.Location = new System.Drawing.Point(483, 232);
             this.txtDestino.Name = "txtDestino";
             this.txtDestino.Size = new System.Drawing.Size(155, 20);
-            this.txtDestino.TabIndex = 25;
-            
+            this.txtDestino.TabIndex = 11;
             // 
             // nupQuantidadeCaminhoesDisponiveis
             // 
             this.nupQuantidadeCaminhoesDisponiveis.Location = new System.Drawing.Point(483, 266);
             this.nupQuantidadeCaminhoesDisponiveis.Name = "nupQuantidadeCaminhoesDisponiveis";
             this.nupQuantidadeCaminhoesDisponiveis.Size = new System.Drawing.Size(155, 20);
-            this.nupQuantidadeCaminhoesDisponiveis.TabIndex = 26;
+            this.nupQuantidadeCaminhoesDisponiveis.TabIndex = 12;
             // 
-            // button1
+            // btnSalvar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(65, 268);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 32);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Salvar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.Location = new System.Drawing.Point(65, 268);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(138, 32);
+            this.btnSalvar.TabIndex = 13;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox3
+            // txtPrecoUnidade
             // 
-            this.textBox3.Location = new System.Drawing.Point(483, 187);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(155, 20);
-            this.textBox3.TabIndex = 28;
+            this.txtPrecoUnidade.Location = new System.Drawing.Point(483, 187);
+            this.txtPrecoUnidade.Name = "txtPrecoUnidade";
+            this.txtPrecoUnidade.Size = new System.Drawing.Size(155, 20);
+            this.txtPrecoUnidade.TabIndex = 9;
             // 
-            // CadastroDeMadeira
+            // Cadastro_de_madeira
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orchid;
             this.ClientSize = new System.Drawing.Size(643, 312);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtPrecoUnidade);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.nupQuantidadeCaminhoesDisponiveis);
             this.Controls.Add(this.txtDestino);
             this.Controls.Add(this.nupTempoExistencia);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDemanda);
+            this.Controls.Add(this.txtLocalDeExtracao);
             this.Controls.Add(this.tbQualidade);
             this.Controls.Add(this.tbResistenciaFlexao);
             this.Controls.Add(this.tbResistenciaTraccao);
@@ -332,9 +338,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "CadastroDeMadeira";
-            this.Text = "Cadastro de madeira";
-            
+            this.Name = "Cadastro_de_madeira";
+            this.Text = "Cadastro_de_madeira";
             ((System.ComponentModel.ISupportInitialize)(this.tbHigrospicidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbFlexibilidade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbDurabilidade)).EndInit();
@@ -371,12 +376,12 @@
         private System.Windows.Forms.TrackBar tbResistenciaTraccao;
         private System.Windows.Forms.TrackBar tbResistenciaFlexao;
         private System.Windows.Forms.TrackBar tbQualidade;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtLocalDeExtracao;
+        private System.Windows.Forms.TextBox txtDemanda;
         private System.Windows.Forms.NumericUpDown nupTempoExistencia;
         private System.Windows.Forms.TextBox txtDestino;
         private System.Windows.Forms.NumericUpDown nupQuantidadeCaminhoesDisponiveis;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.TextBox txtPrecoUnidade;
     }
 }
