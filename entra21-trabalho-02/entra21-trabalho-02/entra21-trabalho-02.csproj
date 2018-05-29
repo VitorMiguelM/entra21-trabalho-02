@@ -75,18 +75,21 @@
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </Compile>
     <Compile Include="Carros.cs" />
-<<<<<<< HEAD
-    <Compile Include="Madeira.cs">
-      <SubType>Code</SubType>
-=======
     <Compile Include="Lista de madeira.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lista de madeira.Designer.cs">
       <DependentUpon>Lista de madeira.cs</DependentUpon>
->>>>>>> dac47d52715e99c9fac1cfec5fe5dc89e59f2863
     </Compile>
-    <Compile Include="Madeira.cs" />
+    <Compile Include="Listar de carro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listar de carro.Designer.cs">
+      <DependentUpon>Listar de carro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Madeira.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Moveis.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -114,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lista de madeira.resx">
       <DependentUpon>Lista de madeira.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listar de carro.resx">
+      <DependentUpon>Listar de carro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
