@@ -107,6 +107,9 @@
     <EmbeddedResource Include="CadastroDeMadeira.resx">
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lista de madeira.resx">
+      <DependentUpon>Lista de madeira.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>

@@ -36,7 +36,7 @@
             this.btnCadastroCarrros = new System.Windows.Forms.Button();
             this.btnCadastroMoveis = new System.Windows.Forms.Button();
             this.btnCadastroComputadores = new System.Windows.Forms.Button();
-            this.btnCadstroRoupas = new System.Windows.Forms.Button();
+            this.btnCadastroRoupas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -131,17 +131,17 @@
             this.btnCadastroComputadores.UseVisualStyleBackColor = false;
             this.btnCadastroComputadores.Click += new System.EventHandler(this.btnCadastroComputadores_Click);
             // 
-            // btnCadstroRoupas
+            // btnCadastroRoupas
             // 
-            this.btnCadstroRoupas.BackColor = System.Drawing.Color.Plum;
-            this.btnCadstroRoupas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadstroRoupas.Location = new System.Drawing.Point(326, 321);
-            this.btnCadstroRoupas.Name = "btnCadstroRoupas";
-            this.btnCadstroRoupas.Size = new System.Drawing.Size(233, 52);
-            this.btnCadstroRoupas.TabIndex = 8;
-            this.btnCadstroRoupas.Text = "Cadastro de roupas";
-            this.btnCadstroRoupas.UseVisualStyleBackColor = false;
-            this.btnCadstroRoupas.Click += new System.EventHandler(this.btnCadstroRoupas_Click);
+            this.btnCadastroRoupas.BackColor = System.Drawing.Color.Plum;
+            this.btnCadastroRoupas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastroRoupas.Location = new System.Drawing.Point(326, 321);
+            this.btnCadastroRoupas.Name = "btnCadastroRoupas";
+            this.btnCadastroRoupas.Size = new System.Drawing.Size(233, 52);
+            this.btnCadastroRoupas.TabIndex = 8;
+            this.btnCadastroRoupas.Text = "Cadastro de roupas";
+            this.btnCadastroRoupas.UseVisualStyleBackColor = false;
+            this.btnCadastroRoupas.Click += new System.EventHandler(this.btnCadstroRoupas_Click);
             // 
             // btnListar
             // 
@@ -149,7 +149,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orchid;
             this.ClientSize = new System.Drawing.Size(587, 399);
-            this.Controls.Add(this.btnCadstroRoupas);
+            this.Controls.Add(this.btnCadastroRoupas);
             this.Controls.Add(this.btnCadastroComputadores);
             this.Controls.Add(this.btnCadastroMoveis);
             this.Controls.Add(this.btnCadastroCarrros);
@@ -175,7 +175,7 @@
         private System.Windows.Forms.Button btnCadastroCarrros;
         private System.Windows.Forms.Button btnCadastroMoveis;
         private System.Windows.Forms.Button btnCadastroComputadores;
-        private System.Windows.Forms.Button btnCadstroRoupas;
+        private System.Windows.Forms.Button btnCadastroRoupas;
     }
 }
 

@@ -16,5 +16,10 @@ namespace entra21_trabalho_02
         {
             InitializeComponent();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            new Cadastro_de_madeira().ShowDialog();
+        }
     }
 }
