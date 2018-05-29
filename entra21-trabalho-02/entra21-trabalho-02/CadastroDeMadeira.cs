@@ -154,9 +154,27 @@ namespace entra21_trabalho_02
 
             Madeira madeira = new Madeira()
             {
+                LocalDeExtracao = txtLocalDeExtracao.Text,
+                Demanda = Convert.ToInt32(txtDemanda.Text),
+                TempoDeExistencia = Convert.ToInt32(nupTempoExistencia.Value),
+                PrecoPorUnidade = Convert.ToDouble(txtPrecoUnidade.Text),
+                Destino = txtDestino.Text,
+                QuantidadeDeCaminhoesDisponiveis = Convert.ToInt32(nupQuantidadeCaminhoesDisponiveis.Value),
 
-            }
+            };
+           
+        }
+        private void LimparCampos()
+        {
+            txtLocalDeExtracao.Text = "";
+            txtDemanda.Text = "";
+            nupTempoExistencia.Value = -1;
+            txtPrecoUnidade.Text = "";
+            txtDestino.Text = "";
+            nupQuantidadeCaminhoesDisponiveis.Value = -1;
+
+        }
 
         }      
     }
-}
+
