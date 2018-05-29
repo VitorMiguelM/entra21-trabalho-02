@@ -55,6 +55,7 @@
             this.nupQuantidadeCaminhoesDisponiveis = new System.Windows.Forms.NumericUpDown();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.txtPrecoUnidade = new System.Windows.Forms.TextBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tbHigrospicidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbFlexibilidade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbDurabilidade)).BeginInit();
@@ -90,7 +91,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(253, 268);
+            this.label3.Location = new System.Drawing.Point(317, 268);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(223, 13);
             this.label3.TabIndex = 2;
@@ -110,7 +111,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(366, 190);
+            this.label5.Location = new System.Drawing.Point(429, 185);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(111, 13);
             this.label5.TabIndex = 4;
@@ -130,7 +131,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(354, 151);
+            this.label7.Location = new System.Drawing.Point(416, 151);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(124, 13);
             this.label7.TabIndex = 6;
@@ -150,7 +151,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(356, 106);
+            this.label9.Location = new System.Drawing.Point(416, 106);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(122, 13);
             this.label9.TabIndex = 8;
@@ -160,7 +161,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(328, 74);
+            this.label10.Location = new System.Drawing.Point(388, 74);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(155, 13);
             this.label10.TabIndex = 9;
@@ -180,7 +181,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(422, 232);
+            this.label12.Location = new System.Drawing.Point(490, 225);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(50, 13);
             this.label12.TabIndex = 11;
@@ -190,7 +191,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(401, 38);
+            this.label13.Location = new System.Drawing.Point(461, 38);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(77, 13);
             this.label13.TabIndex = 12;
@@ -206,7 +207,7 @@
             // 
             // tbFlexibilidade
             // 
-            this.tbFlexibilidade.Location = new System.Drawing.Point(483, 38);
+            this.tbFlexibilidade.Location = new System.Drawing.Point(562, 23);
             this.tbFlexibilidade.Maximum = 2;
             this.tbFlexibilidade.Name = "tbFlexibilidade";
             this.tbFlexibilidade.Size = new System.Drawing.Size(155, 45);
@@ -222,7 +223,7 @@
             // 
             // tbResistenciaCompressao
             // 
-            this.tbResistenciaCompressao.Location = new System.Drawing.Point(483, 74);
+            this.tbResistenciaCompressao.Location = new System.Drawing.Point(562, 64);
             this.tbResistenciaCompressao.Maximum = 2;
             this.tbResistenciaCompressao.Name = "tbResistenciaCompressao";
             this.tbResistenciaCompressao.Size = new System.Drawing.Size(155, 45);
@@ -238,7 +239,7 @@
             // 
             // tbResistenciaFlexao
             // 
-            this.tbResistenciaFlexao.Location = new System.Drawing.Point(483, 106);
+            this.tbResistenciaFlexao.Location = new System.Drawing.Point(562, 98);
             this.tbResistenciaFlexao.Maximum = 2;
             this.tbResistenciaFlexao.Name = "tbResistenciaFlexao";
             this.tbResistenciaFlexao.Size = new System.Drawing.Size(155, 45);
@@ -268,21 +269,21 @@
             // 
             // nupTempoExistencia
             // 
-            this.nupTempoExistencia.Location = new System.Drawing.Point(483, 151);
+            this.nupTempoExistencia.Location = new System.Drawing.Point(562, 149);
             this.nupTempoExistencia.Name = "nupTempoExistencia";
             this.nupTempoExistencia.Size = new System.Drawing.Size(155, 20);
             this.nupTempoExistencia.TabIndex = 8;
             // 
             // txtDestino
             // 
-            this.txtDestino.Location = new System.Drawing.Point(483, 232);
+            this.txtDestino.Location = new System.Drawing.Point(562, 232);
             this.txtDestino.Name = "txtDestino";
             this.txtDestino.Size = new System.Drawing.Size(155, 20);
             this.txtDestino.TabIndex = 11;
             // 
             // nupQuantidadeCaminhoesDisponiveis
             // 
-            this.nupQuantidadeCaminhoesDisponiveis.Location = new System.Drawing.Point(483, 266);
+            this.nupQuantidadeCaminhoesDisponiveis.Location = new System.Drawing.Point(562, 266);
             this.nupQuantidadeCaminhoesDisponiveis.Name = "nupQuantidadeCaminhoesDisponiveis";
             this.nupQuantidadeCaminhoesDisponiveis.Size = new System.Drawing.Size(155, 20);
             this.nupQuantidadeCaminhoesDisponiveis.TabIndex = 12;
@@ -290,7 +291,7 @@
             // btnSalvar
             // 
             this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(65, 268);
+            this.btnSalvar.Location = new System.Drawing.Point(7, 268);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(138, 32);
             this.btnSalvar.TabIndex = 13;
@@ -300,17 +301,29 @@
             // 
             // txtPrecoUnidade
             // 
-            this.txtPrecoUnidade.Location = new System.Drawing.Point(483, 187);
+            this.txtPrecoUnidade.Location = new System.Drawing.Point(562, 187);
             this.txtPrecoUnidade.Name = "txtPrecoUnidade";
             this.txtPrecoUnidade.Size = new System.Drawing.Size(155, 20);
             this.txtPrecoUnidade.TabIndex = 9;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(151, 268);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(138, 32);
+            this.btnCancelar.TabIndex = 14;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // Cadastro_de_madeira
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orchid;
-            this.ClientSize = new System.Drawing.Size(643, 312);
+            this.ClientSize = new System.Drawing.Size(802, 312);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.txtPrecoUnidade);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.nupQuantidadeCaminhoesDisponiveis);
@@ -383,5 +396,6 @@
         private System.Windows.Forms.NumericUpDown nupQuantidadeCaminhoesDisponiveis;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.TextBox txtPrecoUnidade;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

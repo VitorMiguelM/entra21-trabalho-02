@@ -162,6 +162,8 @@ namespace entra21_trabalho_02
                 QuantidadeDeCaminhoesDisponiveis = Convert.ToInt32(nupQuantidadeCaminhoesDisponiveis.Value),
 
             };
+
+            LimparCampos();
            
         }
         private void LimparCampos()
@@ -173,6 +175,11 @@ namespace entra21_trabalho_02
             txtDestino.Text = "";
             nupQuantidadeCaminhoesDisponiveis.Value = -1;
 
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Dispose();
         }
 
         }      

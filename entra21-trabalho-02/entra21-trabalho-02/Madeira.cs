@@ -14,7 +14,5 @@ namespace entra21_trabalho_02
         public double PrecoPorUnidade;
         public string Destino;
         public int QuantidadeDeCaminhoesDisponiveis;
-
-
     }
 }

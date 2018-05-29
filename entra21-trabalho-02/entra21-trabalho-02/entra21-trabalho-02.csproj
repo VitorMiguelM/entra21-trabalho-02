@@ -75,9 +75,13 @@
       <DependentUpon>CadastroDeMadeira.cs</DependentUpon>
     </Compile>
     <Compile Include="Carros.cs" />
+<<<<<<< HEAD
     <Compile Include="Madeira.cs">
       <SubType>Code</SubType>
     </Compile>
+=======
+    <Compile Include="Madeira.cs" />
+>>>>>>> b9240bd4aea1e79a443b07b191a165f6d4ca4898
     <Compile Include="Moveis.cs">
       <SubType>Code</SubType>
     </Compile>
