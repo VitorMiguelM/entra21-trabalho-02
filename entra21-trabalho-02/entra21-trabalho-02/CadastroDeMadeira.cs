@@ -71,12 +71,12 @@ namespace entra21_trabalho_02
                 MessageBox.Show("Preço por unidade deve ser preenchido corretamente !");
             }
 
-            if (txtDemanda.Text.Length <= 10)
+            if (txtDemanda.Text.Length == 0)
             {
                 MessageBox.Show("Demanda deve ser preenchido corretamente !");
             }
 
-            if (txtDestino.Text == "")
+            if (txtDestino.Text.Length <= 3)
             {
                 MessageBox.Show("Destino deve ser preenchido corretamente !");
             }
@@ -170,10 +170,10 @@ namespace entra21_trabalho_02
         {
             txtLocalDeExtracao.Text = "";
             txtDemanda.Text = "";
-            nupTempoExistencia.Value = -1;
+            nupTempoExistencia.Value = 0;
             txtPrecoUnidade.Text = "";
             txtDestino.Text = "";
-            nupQuantidadeCaminhoesDisponiveis.Value = -1;
+            nupQuantidadeCaminhoesDisponiveis.Value = 0;
 
         }
 
