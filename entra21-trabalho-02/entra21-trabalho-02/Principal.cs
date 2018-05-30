@@ -53,5 +53,14 @@ namespace entra21_trabalho_02
             Lista_de_madeira lista_de_madeira = new Lista_de_madeira();
             lista_de_madeira.Show();
         }
+
+        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se increve no meu canal xD");   
+        }
+
+       
     }
 }
