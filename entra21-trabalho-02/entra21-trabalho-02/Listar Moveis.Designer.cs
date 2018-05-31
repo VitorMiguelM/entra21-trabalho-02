@@ -48,7 +48,6 @@
             this.txtBusca.Name = "txtBusca";
             this.txtBusca.Size = new System.Drawing.Size(356, 20);
             this.txtBusca.TabIndex = 20;
-            this.txtBusca.TextChanged += new System.EventHandler(this.txtBusca_TextChanged);
             // 
             // txtnsei
             // 
@@ -59,7 +58,6 @@
             this.txtnsei.Size = new System.Drawing.Size(51, 16);
             this.txtnsei.TabIndex = 19;
             this.txtnsei.Text = "Busca";
-            this.txtnsei.Click += new System.EventHandler(this.txtnsei_Click);
             // 
             // btnAtualizar
             // 
@@ -119,7 +117,6 @@
             this.dgvListaPeca.ReadOnly = true;
             this.dgvListaPeca.Size = new System.Drawing.Size(446, 313);
             this.dgvListaPeca.TabIndex = 14;
-            this.dgvListaPeca.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaPeca_CellContentClick);
             // 
             // Nome
             // 

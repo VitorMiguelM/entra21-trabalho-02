@@ -161,7 +161,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Orchid;
-            this.ClientSize = new System.Drawing.Size(633, 506);
+            this.ClientSize = new System.Drawing.Size(668, 523);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCadastroRoupas);
             this.Controls.Add(this.btnCadastroComputadores);
