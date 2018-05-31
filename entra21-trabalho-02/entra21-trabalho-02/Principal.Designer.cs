@@ -149,11 +149,11 @@
             this.button1.BackColor = System.Drawing.Color.Orchid;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Orchid;
-            this.button1.Location = new System.Drawing.Point(558, 484);
+            this.button1.Location = new System.Drawing.Point(538, 484);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(103, 39);
             this.button1.TabIndex = 11;
-            this.button1.Text = "button1";
+            this.button1.Text = "Segredinho";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -161,7 +161,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Orchid;
-            this.ClientSize = new System.Drawing.Size(668, 523);
+            this.ClientSize = new System.Drawing.Size(642, 525);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCadastroRoupas);
             this.Controls.Add(this.btnCadastroComputadores);
