@@ -48,7 +48,6 @@
             this.txtBusca.Name = "txtBusca";
             this.txtBusca.Size = new System.Drawing.Size(356, 20);
             this.txtBusca.TabIndex = 20;
-            this.txtBusca.TextChanged += new System.EventHandler(this.txtBusca_TextChanged);
             // 
             // txtnsei
             // 
@@ -59,7 +58,6 @@
             this.txtnsei.Size = new System.Drawing.Size(51, 16);
             this.txtnsei.TabIndex = 19;
             this.txtnsei.Text = "Busca";
-            this.txtnsei.Click += new System.EventHandler(this.txtnsei_Click);
             // 
             // btnAtualizar
             // 
@@ -114,12 +112,11 @@
             this.Cor,
             this.Tipo,
             this.Valor});
-            this.dgvListaPeca.Location = new System.Drawing.Point(101, 181);
+            this.dgvListaPeca.Location = new System.Drawing.Point(101, 213);
             this.dgvListaPeca.Name = "dgvListaPeca";
             this.dgvListaPeca.ReadOnly = true;
             this.dgvListaPeca.Size = new System.Drawing.Size(446, 313);
             this.dgvListaPeca.TabIndex = 14;
-            this.dgvListaPeca.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaPeca_CellContentClick);
             // 
             // Nome
             // 
@@ -163,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(649, 574);
+            this.ClientSize = new System.Drawing.Size(615, 606);
             this.Controls.Add(this.txtBusca);
             this.Controls.Add(this.txtnsei);
             this.Controls.Add(this.btnAtualizar);

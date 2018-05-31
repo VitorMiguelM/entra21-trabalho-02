@@ -23,34 +23,76 @@ namespace entra21_trabalho_02
             cadastroroupas.ShowDialog();
         }
 
-        private void txtnsei_Click(object sender, EventArgs e)
+        private void btnAtualizar_Click(object sender, EventArgs e)
         {
+            AtualziarLista();
+        }
+        private void AtualziarLista()
+        {
+            dgvListaPeca.Rows.Clear();
+            for (int i = 0; i < Program.roupas.Count; i++)
+            {
+                Roupas roupas = Program.roupas[i];
+                dgvListaPeca.Rows.Add(new object[]{roupas.Nome,roupas.Tamanho,roupas.Altura,roupas.Email,roupas.Telefone,
+                                                   roupas.Cidade,roupas.Estado,roupas.Marca,
+
+                });
+            }
+
 
         }
 
-        private void btnAtualizar_Click(object sender, EventArgs e)
+        private void btnEditar_Click(object sender, EventArgs e)
         {
+            if (dgvListaPeca.CurrentRow == null)
+            {
+                MessageBox.Show("Nenhuma linha selecionada");
+                return;
+            }
+            int linhaSelecionada = dgvListaPeca.CurrentRow.Index;
+            Roupas roupas = Program.roupas[linhaSelecionada];
+            //new Cadastro_de_roupas(roupas, linhaSelecionada).ShowDialog();
+
 
         }
 
         private void btnDeletar_Click(object sender, EventArgs e)
         {
 
+            if(dgvListaPeca.CurrentRow == null)
+            {
+                MessageBox.Show("Nenhuma peça selecionada");
+                return;
+            }
+            int linhaSelecionada = dgvListaPeca.CurrentRow.Index;
+            Roupas roupas = Program.roupas[linhaSelecionada];
+
+            DialogResult resultado = MessageBox.Show("Deseja apagar o registro?","AVISO",MessageBoxButtons.YesNo);
+
+            if (resultado == DialogResult.Yes)
+            {
+                Program.roupas.RemoveAt(linhaSelecionada);
+                AtualziarLista();
+                MessageBox.Show("O registro foi apagado com sucesso");
+            }
+            else
+            {
+                MessageBox.Show("TA SAFE");
+            }
+
         }
+        
 
-        private void btnEditar_Click(object sender, EventArgs e)
-        {
+        
 
-        }
+        
 
-        private void dgvListaPeca_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
+       
 
-        }
+        
 
-        private void txtBusca_TextChanged(object sender, EventArgs e)
-        {
+        
 
-        }
+       
     }
 }
