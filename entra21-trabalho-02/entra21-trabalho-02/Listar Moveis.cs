@@ -53,7 +53,7 @@ namespace entra21_trabalho_02
             }
             int linhaSelecionada = dgvListaPeca.CurrentRow.Index;
             Moveis movel = Program.movel[linhaSelecionada];
-            // new Cadastro_de_móveis(movel, linhaSelecionada).ShowDialog();
+            new Cadastro_de_móveis(movel, linhaSelecionada).ShowDialog();
         }
 
         private void btnDeletar_Click(object sender, EventArgs e)
