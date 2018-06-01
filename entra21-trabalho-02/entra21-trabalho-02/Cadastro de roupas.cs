@@ -12,6 +12,7 @@ namespace entra21_trabalho_02
 {
     public partial class Cadastro_de_roupas : Form
     {
+        private int posicao = -1;
         public Cadastro_de_roupas()
         {
             InitializeComponent();
@@ -126,8 +127,17 @@ namespace entra21_trabalho_02
                 Email = txtEmail.Text,
             };
 
-
-
+            if (posicao >= 0)
+            {
+                Program.roupas[posicao] = roupas;
+                MessageBox.Show("Cadastrado co  sucesso xD");
+            }
+            else
+            {
+                Program.roupas.Add(roupas);
+                MessageBox.Show("Cadastro realizado com sucesso");
+            }
+            ListarCampos();
         }
         private void ListarCampos()
         {
