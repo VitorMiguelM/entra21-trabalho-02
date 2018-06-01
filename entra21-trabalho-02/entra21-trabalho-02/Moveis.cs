@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace entra21_trabalho_02
 {
-    class Moveis
+        public  class Moveis
     {
         public string nome;
         public string Endereco;

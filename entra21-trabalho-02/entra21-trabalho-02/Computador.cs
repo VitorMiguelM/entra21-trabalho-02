@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace entra21_trabalho_02
 {
-    class Computador
+    public class Computador
     {
         public string Nome;
         public string Gabinete;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace entra21_trabalho_02
 {
-    class Roupas
+   public class Roupas
     {
         public string Nome;
         public string Tamanho;
