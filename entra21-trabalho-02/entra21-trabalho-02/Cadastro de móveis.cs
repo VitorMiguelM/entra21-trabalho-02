@@ -18,6 +18,35 @@ namespace entra21_trabalho_02
         {
             InitializeComponent();
         }
+        public Cadastro_de_móveis(Moveis movel, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+            txtNome.Text = movel.nome;
+            txtEndereco.Text = movel.Endereco;
+            txtPreco.Text = Convert.ToString(movel.preco);
+            txtTipoDoMaterial.Text = movel.tipoMaterial;
+            txtPeso.Text = Convert.ToString(movel.peso);
+            txtAltura.Text = Convert.ToString(movel.altura);
+            txtEmail.Text = movel.email;
+            rbMacho.Text = Convert.ToString(movel.macho);
+            rbMulher.Text = Convert.ToString(movel.mulher);
+            mtbRG.Text = movel.RG;
+            mtbTelefone.Text = movel.telefone;
+            txtCidade.Text = movel.cidade;
+            cbEstado.Text = movel.estado;
+        }
+
+
+
+
+
+
+
+
+
+
+
 
         private void btnsalvar_Click(object sender, EventArgs e)
         {
