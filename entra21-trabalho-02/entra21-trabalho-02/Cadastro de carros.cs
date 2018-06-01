@@ -240,6 +240,18 @@ namespace entra21_trabalho_02
                 return;
             }
 
+            try
+            {
+                string estado = cbEstado.Text;
+            }
+            catch
+            {
+                MessageBox.Show("Estado deve ser preenchido apenas com letras");
+                cbEstado.Focus();
+                return;
+            }
+
+
             
             Carros carros = new Carros()
             {

@@ -121,6 +121,19 @@ namespace entra21_trabalho_02
                 txtMarca.Focus();
                 return;
             }
+            try
+            {
+                string estado = cbEstado.Text;
+            }
+            catch
+            {
+                MessageBox.Show("Estado deve conter apenas letras");
+                cbEstado.Focus();
+                return;
+            }
+
+
+
 
 
             if (txtNome.Text.Length < 4)

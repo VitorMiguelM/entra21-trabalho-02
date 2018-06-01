@@ -115,6 +115,16 @@ namespace entra21_trabalho_02
                 return;
             }
 
+            try
+            {
+                string estado = cbEstado.Text;
+            }
+            catch
+            {
+                MessageBox.Show("Estado deve conter apenas letras");
+                cbEstado.Focus();
+                return;
+            }
             Roupas roupas = new Roupas()
             {
                 Nome = txtNome.Text,
