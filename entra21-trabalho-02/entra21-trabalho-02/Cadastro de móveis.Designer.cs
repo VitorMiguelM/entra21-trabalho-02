@@ -53,8 +53,6 @@
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.txtAltura = new System.Windows.Forms.TextBox();
             this.txtMarca = new System.Windows.Forms.TextBox();
@@ -303,22 +301,6 @@
             this.cbEstado.Size = new System.Drawing.Size(133, 21);
             this.cbEstado.TabIndex = 38;
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(674, 206);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(134, 20);
-            this.textBox5.TabIndex = 39;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(628, 210);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 13);
-            this.label11.TabIndex = 40;
-            this.label11.Text = "Cidade";
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -337,15 +319,15 @@
             // 
             // txtMarca
             // 
-            this.txtMarca.Location = new System.Drawing.Point(114, 236);
+            this.txtMarca.Location = new System.Drawing.Point(673, 206);
             this.txtMarca.Name = "txtMarca";
-            this.txtMarca.Size = new System.Drawing.Size(151, 20);
+            this.txtMarca.Size = new System.Drawing.Size(134, 20);
             this.txtMarca.TabIndex = 44;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(71, 239);
+            this.label14.Location = new System.Drawing.Point(628, 209);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(37, 13);
             this.label14.TabIndex = 43;
@@ -360,8 +342,6 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtAltura);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtCidade);
@@ -421,8 +401,6 @@
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox cbEstado;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txtAltura;
         private System.Windows.Forms.TextBox txtMarca;
