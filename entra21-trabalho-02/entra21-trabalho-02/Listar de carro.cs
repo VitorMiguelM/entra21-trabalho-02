@@ -60,7 +60,7 @@ namespace entra21_trabalho_02
             }
             int linhaSelecionada = dgvListaPeca.CurrentRow.Index;
             Carros carros = Program.carro[linhaSelecionada];
-            // new Cadastro_de_carros(carros, linhaSelecionada).ShowDialog();
+            new Cadastro_de_carros(carros, linhaSelecionada).ShowDialog();
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
