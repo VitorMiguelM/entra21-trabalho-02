@@ -19,7 +19,22 @@ namespace entra21_trabalho_02
         {
             InitializeComponent();
         }
-
+        public Cadastro_de_computadores(Computador computador, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+            txtNome.Text = computador.Nome;
+            txtGabinete.Text = computador.Gabinete;
+            txtProcessador.Text = computador.Processador;
+            txtPlacaDeVideo.Text = computador.PlacaDeVideo;
+            txtRAM.Text = Convert.ToString(computador.RAM);
+            txtHD.Text = Convert.ToString(computador.HD);
+            txtFonte.Text = Convert.ToString(computador.Fonte);
+            txtPlacaMae.Text = Convert.ToString(computador.PlacaMae);
+            txtEmail.Text = computador.Email;
+            mtbTelefone.Text = computador.Telefone;
+            txtCidade.Text = computador.Cidade;
+        }
         
 
 
