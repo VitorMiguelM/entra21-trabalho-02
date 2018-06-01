@@ -52,7 +52,7 @@ namespace entra21_trabalho_02
 
             int linhaSelecionada = dgvListaPeca.CurrentRow.Index;
             Computador computador = Program.computadores[linhaSelecionada];
-            //new Cadastro_de_computadores(computador, linhaSelecionada).ShowDialog();
+            new Cadastro_de_computadores(computador, linhaSelecionada).ShowDialog();
 
 
         }
