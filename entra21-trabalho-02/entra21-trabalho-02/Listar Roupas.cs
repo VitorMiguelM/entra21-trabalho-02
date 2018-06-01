@@ -51,7 +51,7 @@ namespace entra21_trabalho_02
             }
             int linhaSelecionada = dgvListaPeca.CurrentRow.Index;
             Roupas roupas = Program.roupas[linhaSelecionada];
-            //new Cadastro_de_roupas(roupas, linhaSelecionada).ShowDialog();
+            new Cadastro_de_roupas(roupas, linhaSelecionada).ShowDialog();
 
 
         }
