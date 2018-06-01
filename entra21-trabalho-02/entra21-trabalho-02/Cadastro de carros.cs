@@ -18,10 +18,26 @@ namespace entra21_trabalho_02
         {
             InitializeComponent();
         }
+        public Cadastro_de_carros(Carros carro, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+            txtNomeDaPessoa.Text = carro.NomeDaPessoa;
+            txtMarca.Text = carro.Marca;
+            txtAlturaDoCarro.Text = Convert.ToString(carro.Altura);
+            txtPesoDocarro.Text = Convert.ToString(carro.Peso);
+            mtbPlaca.Text = carro.Placa;
+            txtCidade.Text = carro.Cidade;
+            txtIdade.Text = Convert.ToString(carro.Idade);
+            txtEmail.Text = carro.Email;
+            mtbTelefone.Text = carro.Telefone;
+            txtProfissao.Text = carro.Profissao;
+        }
 
+        
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-
+          
 
 
 
