@@ -21,6 +21,29 @@ namespace entra21_trabalho_02
                 cbTamanho.Items.Add(i);
             }
         }
+        public Cadastro_de_roupas(Roupas roupas, int posicao)
+        {
+            InitializeComponent();
+            this.posicao = posicao;
+            txtNome.Text = roupas.Nome;
+            cbEstado.Text = roupas.Tamanho;
+            txtAltura.Text = Convert.ToString(roupas.Altura);
+            txtEmail.Text = roupas.Email;
+            mtbTelefone.Text = roupas.Telefone;
+            txtCidade.Text = roupas.Cidade;
+            cbEstado.Text = roupas.Estado;
+            txtMarca.Text = roupas.Marca;
+
+        }
+
+
+
+
+
+
+
+
+
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
