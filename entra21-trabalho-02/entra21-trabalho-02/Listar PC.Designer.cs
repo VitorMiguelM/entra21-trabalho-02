@@ -32,7 +32,6 @@
             this.btnDeletar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.dgvListaPeca = new System.Windows.Forms.DataGridView();
-            this.btnCadastrar = new System.Windows.Forms.Button();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gabinete = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Processador = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,6 +43,9 @@
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaPeca)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +54,7 @@
             this.btnAtualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizar.Image = global::entra21_trabalho_02.Properties.Resources.actualize_arrows_couple_in_circle;
             this.btnAtualizar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAtualizar.Location = new System.Drawing.Point(807, 156);
+            this.btnAtualizar.Location = new System.Drawing.Point(900, 117);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(95, 44);
             this.btnAtualizar.TabIndex = 18;
@@ -66,7 +68,7 @@
             this.btnDeletar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeletar.Image = global::entra21_trabalho_02.Properties.Resources.delete;
             this.btnDeletar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnDeletar.Location = new System.Drawing.Point(1034, 156);
+            this.btnDeletar.Location = new System.Drawing.Point(1092, 117);
             this.btnDeletar.Name = "btnDeletar";
             this.btnDeletar.Size = new System.Drawing.Size(89, 44);
             this.btnDeletar.TabIndex = 17;
@@ -80,7 +82,7 @@
             this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.Image = global::entra21_trabalho_02.Properties.Resources.edit__1_;
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(928, 156);
+            this.btnEditar.Location = new System.Drawing.Point(1001, 117);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(85, 44);
             this.btnEditar.TabIndex = 16;
@@ -112,20 +114,6 @@
             this.dgvListaPeca.ReadOnly = true;
             this.dgvListaPeca.Size = new System.Drawing.Size(1146, 313);
             this.dgvListaPeca.TabIndex = 14;
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.Image = global::entra21_trabalho_02.Properties.Resources.plus;
-            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnCadastrar.Location = new System.Drawing.Point(1144, 156);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(103, 44);
-            this.btnCadastrar.TabIndex = 15;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // Nome
             // 
@@ -193,11 +181,44 @@
             this.Cidade.Name = "Cidade";
             this.Cidade.ReadOnly = true;
             // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.Image = global::entra21_trabalho_02.Properties.Resources.plus;
+            this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnCadastrar.Location = new System.Drawing.Point(1187, 117);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(103, 44);
+            this.btnCadastrar.TabIndex = 15;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(602, 177);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(688, 20);
+            this.textBox1.TabIndex = 22;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(541, 177);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 18);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Buscar";
+            // 
             // Listar_PC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1379, 639);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnDeletar);
             this.Controls.Add(this.btnEditar);
@@ -207,6 +228,7 @@
             this.Text = "Listar_PC";
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaPeca)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -228,5 +250,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Email;
         private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cidade;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
